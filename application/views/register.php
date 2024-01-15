@@ -68,16 +68,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <div class="mb-3">
                         <label for="email" class="form-label font-weight-bold text-success">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="name@example.com">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label for="password" class="form-label font-weight-bold text-success">Password</label>
-                        <input type="password" class="form-control" id="password" name="password">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Must be 8-20 characters long.">
                     </div>
                     <div class="mb-3">
                         <label for="password_confirm" class="form-label font-weight-bold text-success">Confirm Password</label>
-                        <input type="password" class="form-control" id="password_confirm" name="password_confirm">
+                        <input type="password" class="form-control" id="password_confirm" name="password_confirm" placeholder="Must be 8-20 characters long.">
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">

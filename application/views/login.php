@@ -60,12 +60,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <form action="<?php echo base_url('Auth/login'); ?>" method="post" class="border border-dark w-100 p-3 mx-auto " style="border-radius: 5px; margin-top: 50px;">
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label font-weight-bold text-success">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" placeholder="name@example.com">
                         <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputPassword1" class="form-label font-weight-bold text-success">Password</label>
-                        <input type="password" class="form-control" id="password" name="password">
+                        <input type="password" class="form-control" id="password" name="password" placeholder="Must be 8-20 characters long.">
                     </div>
                     <div class="mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">

@@ -23,6 +23,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     acceptedFiles : 'image/*',
     maxFilesize : 1
   };
+    // Progress upload
+  $(document).ready(function() {
+        // Handle file upload
+        $('#file').change(function() {
+            var file = this.files[0];
+
+            // Get the file size
+            var size = file.size;
+
+            // Get the file name
+            var name = file.name;
+
+            // Calculate the progress
+            var progress = (size / 1000000) * 100;
+
+            // Update the progress bar
+            $('.progress-bar').css('width', progress + '%');
+            $('.progress-bar').text(progress + '%');
+
+            // Show the success alert
+            if (progress === 100) {
+                $('.alert-success').show();
+            }
+        });
+    });
 </script>
 <style>
     body {
@@ -47,6 +72,51 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     .dz-message h3 {
         font-size: 200%;
         margin-bottom: 15px;
+    }
+
+    .progress {
+    margin: 10px 0;
+    }
+
+    .progress-bar {
+        width: 100%;
+        height: 20px;
+        background-color: #007bff;
+        color: #fff;
+    }
+
+    .progress-bar::-webkit-progress-value {
+        background-color: #fff;
+    }
+
+    .progress-bar::-webkit-progress-bar {
+        background-color: #007bff;
+    }
+
+    .full-width-button {
+        display: block;
+        width: 100%;
+        margin-top: 10px; /* adjust as needed */
+        margin-bottom: 10px; /* adjust as needed */
+        padding: 10px; /* adjust as needed */
+        box-sizing: border-box;
+        text-align: center; /* if you want the text to be left-aligned */
+        background-color: #fff; /* Green button color */
+        border: 1px solid #4CAF4F;
+        border-radius: 5px;
+        color: #4CAF4F;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .full-width-button:hover {
+        background-color: #4CAF4F; /* memberi warna ketika cursor diatas button */
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
     }
 </style>
 <body>
@@ -94,16 +164,31 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Konten Halaman -->
     <div class="container-fluid" style="margin-bottom: 50px">
         <div class="container">
-                <form action="<?php echo base_url('Upload/proses_upload') ?>" class="dropzone" id="fileUpload">
-                    <div class="dz-message">
-                        <h3>Drop files here</h3> or <strong>click</strong> to upload
-                        <p style="margin-top:10px">Supported formates: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT</p>
-                    </div>
-                </form>
-                <div>
-                    <p class="text-secondary font-weight-bold" style="margin-top: 20px">Uploading</p>
-                    
+            <form action="<?php echo base_url('Upload/proses_upload') ?>" class="dropzone" id="fileUpload">
+                <div class="dz-message">
+                    <h3>Drop files here</h3> or <strong>click</strong> to upload
+                    <p style="margin-top:10px">Supported formates: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT</p>
                 </div>
+            </form>
+            <div>
+                <p class="text-secondary font-weight-bold" style="margin-top: 20px">Uploading</p>
+                <input class="form-control" type="text" value="your-file-here.pdf" aria-label="readonly input example" readonly>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+                    <p style="padding-top:10px">0%</p>
+                </div>
+            </div>
+            <div class="alert alert-success" role="alert" style="display: none;">
+                File berhasil diupload.
+            </div>
+            <div>
+                <p class="text-secondary font-weight-bold" style="margin-top: 20px">Uploaded</p>
+                <input class="form-control" type="text" value="document-name.pdf" aria-label="readonly input example" readonly>
+            </div>
+            <div style="padding-top:20px">
+                <button type="button" class="full-width-button">UPLOAD FILES</button>
+            </div>
         </div>
     </div>
     <!-- Footer -->
