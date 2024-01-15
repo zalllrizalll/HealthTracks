@@ -110,7 +110,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
             </div>
             <!-- Content Activity -->
-            <div class="container text-center" style="margin-bottom: 50px">
+            <div class="container text-center" style="margin-bottom: 20px">
                 <div class="text-center" style="padding-top: 30px">
                     <h3>Our Activity</h3>
                     <p>Kami sebelumnya telah memberikan solusi kesehatan yang disesuaikan, membimbing individu untuk membuat pilihan optimal yang selaras dengan kebutuhan kesehatan mereka. Dokter kami yang berpengalaman siap sedia untuk berkonsultasi, membantu Anda mengidentifikasi layanan yang paling sesuai untuk kesejahteraan Anda.</p>
