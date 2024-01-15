@@ -10,64 +10,60 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 <body>
     <!-- Space untuk navbar -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12" style="margin-bottom: 50px;">
-                <!-- Navbar disini -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="#">
-                        <span class="font-weight-bold" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#4CAF4F">HealthTracks.</span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="<?php echo base_url('Upload/index') ?>">Documents</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Records</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Help</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item" style='padding-right: 13px;'>
-                                <a class="nav-link" href="<?php echo base_url('Auth/login') ?>">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="<?php echo base_url('Auth/register') ?>" class="btn btn-outline-success">Register</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+    <div class="row">
+        <div class="col-md-12" style="margin-bottom: 50px;">
+            <!-- Navbar disini -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+                    <span class="font-weight-bold" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#4CAF4F">HealthTracks.</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?php echo base_url('Upload/index') ?>">Documents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Records</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item" style='padding-right: 13px;'>
+                            <a class="nav-link" href="<?php echo base_url('Auth/login') ?>">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?php echo base_url('Auth/register') ?>" class="btn btn-outline-success">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <div class="container-fluid">
+    </div>
+    <div class="container-fluid">
+        <div class="container">
             <!-- Konten halaman di sini -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6" style='padding-top: 30px'>
-                        <h2>HealthTracks ready to help</h2>
-                        <p>Bergabunglah dengan jutaan individu yang telah memilih HealthTracks sebagai mitra kesehatan mereka. Dengan pelacakan yang canggih, analisis mendalam, dan dukungan komunitas yang tiada henti, HealthTracks membuka jalan bagi Anda untuk menelusuri setiap sudut dan tikungan perjalanan kesehatan Anda dengan keyakinan dan tekad yang tak tergoyahkan. Bersama-sama, kita akan mencapai kesehatan optimal yang kita semua impikan, membentuk dan menciptakan sejarah kesehatan pribadi yang tak terlupakan dan luar biasa.</p>
-                        <a href="#" class="btn btn-outline-success">Get Started</a>
-                    </div>
-                    <div class="col-md-6" style='padding-left: 150px;'>
-                        <img src="https://img.freepik.com/free-vector/hand-drawn-patient-taking-medical-examination_23-2148843031.jpg?w=740&t=st=1705123844~exp=1705124444~hmac=f78465eb9b42635798880e62836fdcfaab8174ebc48a95f47467a85db9323917" alt="Image Content" class="img-fluid" style="width: 20rem;">
-                    </div>
+            <div class="row">
+                <div class="col-md-6" style='padding-top: 30px'>
+                    <h2>HealthTracks ready to help</h2>
+                    <p>Bergabunglah dengan jutaan individu yang telah memilih HealthTracks sebagai mitra kesehatan mereka. Dengan pelacakan yang canggih, analisis mendalam, dan dukungan komunitas yang tiada henti, HealthTracks membuka jalan bagi Anda untuk menelusuri setiap sudut dan tikungan perjalanan kesehatan Anda dengan keyakinan dan tekad yang tak tergoyahkan. Bersama-sama, kita akan mencapai kesehatan optimal yang kita semua impikan, membentuk dan menciptakan sejarah kesehatan pribadi yang tak terlupakan dan luar biasa.</p>
+                    <a href="#" class="btn btn-outline-success">Get Started</a>
+                </div>
+                <div class="col-md-6" style='padding-left: 150px;'>
+                    <img src="https://img.freepik.com/free-vector/hand-drawn-patient-taking-medical-examination_23-2148843031.jpg?w=740&t=st=1705123844~exp=1705124444~hmac=f78465eb9b42635798880e62836fdcfaab8174ebc48a95f47467a85db9323917" alt="Image Content" class="img-fluid" style="width: 20rem;">
                 </div>
             </div>
-        </div>
-         <!-- Content Features  -->
-         <div class="container-fluid">
+            <!-- Content Service  -->
             <div class="container text-center" style="padding-top: 50px">
                 <div class="text-center">
                     <h3>Our Service</h3>
@@ -100,9 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-         </div>
-         <!-- Content Product -->
-         <div class="container-fluid">
+            <!-- Content Product -->
             <div class="container" style="padding-top:20px; margin-bottom:20px">
                 <div class="row">
                     <div class="col-md-6">
@@ -115,9 +109,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-         </div>
-         <!-- Content Download -->
-        <div class="container-fluid">
+            <!-- Content Activity -->
             <div class="container text-center" style="margin-bottom: 50px">
                 <div class="text-center" style="padding-top: 30px">
                     <h3>Our Activity</h3>
@@ -156,9 +148,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Content Download -->
-        <div class="container-fluid">
+            <!-- Content Download -->
             <div class="container" style="margin-bottom:50px">
                 <div class="row">
                     <div class="col-md-5" style="padding-top:30px; margin-left:80px; padding-right: 30px">
@@ -171,94 +161,94 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-         </div>
-         <!-- Footer -->
-         <footer class="bg-secondary text-white pt-5 pb-4">
-            <div class="container text-left text-md-left">
-                <div class="row text-center text-md-left">
-                    <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">University</h5>
-                        <p>Universitas Dian Nuswantoro</p>
-                    </div>
-                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
-                        <p>
-                            <a href="#" class="text-white" style="text-decoration: none;">About us</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white" style="text-decoration: none;">Documents</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white" style="text-decoration: none;">Contact us</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white" style="text-decoration: none;">Privacy Policy</a>
-                        </p>
-                    </div>
-                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Support</h5>
-                        <p>
-                            <a href="#" class="text-white" style="text-decoration: none;">Help Center</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white" style="text-decoration: none;">Terms of Service</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white" style="text-decoration: none;">Legal</a>
-                        </p>
-                        <p>
-                            <a href="#" class="text-white" style="text-decoration: none;">Status</a>
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-                        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
-                        <p>
-                            <i class="fas fa-home mr-3"></i>207 Imam Bonjol Street
-                        </p>
-                        <p>
-                            <i class="fas fa-envelope mr-3"></i>sekretariat@dinus.ac.id
-                        </p>
-                        <p>
-                            <i class="fas fa-phone mr-3"></i>(024) 3517261
-                        </p>
-                        <p>
-                            <i class="fas fa-fax mr-3"></i>+01 335 633 77
-                        </p>
-                    </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-secondary text-white pt-5 pb-4">
+        <div class="container text-left text-md-left">
+            <div class="row text-center text-md-left">
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">University</h5>
+                    <p>Universitas Dian Nuswantoro</p>
                 </div>
-                <hr class="mb-4">
-                <div class="row align-items-center">
-                    <div class="col-md-7 col-lg-8">
-                        <p> Copyright &copy; All rights reserved by
-                            <a href="https://portal.dinus.ac.id/" style="text-decoration:none">
-                                <strong class="text-warning">Universitas Dian Nuswantoro</strong>
-                            </a>
-                        </p>
-                    </div>
-                    <div class="col-md-5 col-lg-4">
-                        <div class="text-center text-md-right">
-                            <ul class="list-unstyled list-inline">
-                                <li class="list-inline-item">
-                                    <a href="https://www.facebook.com/univ.dian.nuswantoro/" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-facebook"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://twitter.com/udinusofficial" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-twitter"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://www.instagram.com/udinusofficial/" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://www.linkedin.com/school/universitas-dian-nuswantoro/?originalSubdomain=id" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-linkedin-in"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://www.youtube.com/@tvkuch49udinus" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-youtube"></i></a>
-                                </li>
-                            </ul>
-                        </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Products</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">About us</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Documents</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Contact us</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Privacy Policy</a>
+                    </p>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Support</h5>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Help Center</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Terms of Service</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Legal</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-white" style="text-decoration: none;">Status</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Contact</h5>
+                    <p>
+                        <i class="fas fa-home mr-3"></i>207 Imam Bonjol Street
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i>sekretariat@dinus.ac.id
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i>(024) 3517261
+                    </p>
+                    <p>
+                        <i class="fas fa-fax mr-3"></i>+01 335 633 77
+                    </p>
+                </div>
+            </div>
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8">
+                    <p> Copyright &copy; All rights reserved by
+                        <a href="https://portal.dinus.ac.id/" style="text-decoration:none">
+                            <strong class="text-warning">Universitas Dian Nuswantoro</strong>
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/univ.dian.nuswantoro/" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/udinusofficial" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.instagram.com/udinusofficial/" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/school/universitas-dian-nuswantoro/?originalSubdomain=id" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-linkedin-in"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.youtube.com/@tvkuch49udinus" class="btn-floating btn-sm text-white" style="font-size:23px"><i class="fab fa-youtube"></i></a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-         </footer>
-    </div> 
+        </div>
+    </footer>
 </body>
 </html>
