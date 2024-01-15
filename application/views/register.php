@@ -28,14 +28,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         text-decoration: none;
         font-size: 16px;
         font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
+        font-weight: bold;
         cursor: pointer;
     }
 
     .full-width-button:hover {
         background-color: #4CAF4F; /* memberi warna ketika cursor diatas button */
         color: #fff;
-        font-weight: 500;
+        font-weight: bold;
         font-family: 'Montserrat', sans-serif;
     }
 </style>
