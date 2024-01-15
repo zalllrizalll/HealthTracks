@@ -151,12 +151,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <!-- Content Download -->
             <div class="container" style="margin-bottom:50px">
                 <div class="row">
-                    <div class="col-md-5" style="padding-top:30px; margin-left:80px; padding-right: 30px">
+                    <div class="col-md-6" style="padding-top:40px; margin-left:30px; padding-right: 30px">
                         <h2>Leading healthcare providers</h2>
                         <p>HealthTracks bukan hanya sekedar aplikasi pelacak kesehatan, melainkan mitra setia yang hadir dalam setiap langkah perjalanan panjang kesehatan Anda. Kami yakin bahwa setiap langkah kecil membawa Anda mendekati versi terbaik dari diri Anda, dan bersama HealthTracks, kami membantu memetakan dan memahami perjalanan kesehatan Anda dengan penuh kepedulian.</p>
                         <a href="#" class="btn btn-outline-success">Learn more</a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5">
                         <img src="https://img.freepik.com/free-vector/doctor-home-concept-illustration_114360-7060.jpg?w=826&t=st=1705131228~exp=1705131828~hmac=e88e765cb43134a77ef563828727434ce47fd82cd0bceb26e15158d80d0f4839" alt="" style="width:25rem; padding-left:50px; margin-left: 30px; padding-top:50px">
                     </div>
                 </div>
