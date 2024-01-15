@@ -51,46 +51,44 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </style>
 <body>
     <!-- Space untuk navbar -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12" style="margin-bottom: 50px;">
-                <!-- Navbar disini -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a class="navbar-brand" href="<?php echo base_url('Dashboard/index') ?>">
-                        <span class="font-weight-bold" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#4CAF4F">HealthTracks.</span>
-                    </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="<?php echo base_url('Dashboard/index') ?>">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Documents</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Records</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Help</a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item" style='padding-right: 13px;'>
-                                <a class="nav-link" href="<?php echo base_url('Auth/login') ?>">Login</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="<?php echo base_url('Auth/register') ?>" class="btn btn-outline-success">Register</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
+    <div class="row">
+        <div class="col-md-12" style="margin-bottom: 50px;">
+            <!-- Navbar disini -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="<?php echo base_url('Dashboard/index') ?>">
+                    <span class="font-weight-bold" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color:#4CAF4F">HealthTracks.</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="<?php echo base_url('Dashboard/index') ?>">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Documents</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Records</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Help</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item" style='padding-right: 13px;'>
+                            <a class="nav-link" href="<?php echo base_url('Auth/login') ?>">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="<?php echo base_url('Auth/register') ?>" class="btn btn-outline-success">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
     </div>
     <!-- Konten Halaman -->
