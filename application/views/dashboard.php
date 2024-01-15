@@ -54,12 +54,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="container">
             <!-- Konten halaman di sini -->
             <div class="row">
-                <div class="col-md-6" style='padding-top: 30px'>
+                <div class="col-md-6" style='padding-top: 30px; margin-left:30px'>
                     <h2>HealthTracks ready to help</h2>
-                    <p>Bergabunglah dengan jutaan individu yang telah memilih HealthTracks sebagai mitra kesehatan mereka. Dengan pelacakan yang canggih, analisis mendalam, dan dukungan komunitas yang tiada henti, HealthTracks membuka jalan bagi Anda untuk menelusuri setiap sudut dan tikungan perjalanan kesehatan Anda dengan keyakinan dan tekad yang tak tergoyahkan. Bersama-sama, kita akan mencapai kesehatan optimal yang kita semua impikan, membentuk dan menciptakan sejarah kesehatan pribadi yang tak terlupakan dan luar biasa.</p>
+                    <p>Bergabunglah dengan jutaan individu yang telah memilih HealthTracks sebagai mitra kesehatan mereka. Dengan pelacakan yang canggih, analisis mendalam, dan dukungan komunitas yang tiada henti, HealthTracks membuka jalan bagi Anda untuk menelusuri setiap sudut dan tikungan perjalanan kesehatan Anda dengan keyakinan dan tekad yang tak tergoyahkan. Bersama-sama, kita akan mencapai kesehatan optimal yang kita semua impikan.</p>
                     <a href="#" class="btn btn-outline-success">Get Started</a>
                 </div>
-                <div class="col-md-6" style='padding-left: 150px;'>
+                <div class="col-md-5" style="padding-left:150px">
                     <img src="https://img.freepik.com/free-vector/hand-drawn-patient-taking-medical-examination_23-2148843031.jpg?w=740&t=st=1705123844~exp=1705124444~hmac=f78465eb9b42635798880e62836fdcfaab8174ebc48a95f47467a85db9323917" alt="Image Content" class="img-fluid" style="width: 20rem;">
                 </div>
             </div>
