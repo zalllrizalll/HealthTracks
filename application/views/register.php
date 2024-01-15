@@ -12,6 +12,33 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+<style>
+    .full-width-button {
+        display: block;
+        width: 100%;
+        margin-top: 10px; /* adjust as needed */
+        margin-bottom: 10px; /* adjust as needed */
+        padding: 6px; /* adjust as needed */
+        box-sizing: border-box;
+        text-align: center; /* if you want the text to be left-aligned */
+        background-color: #fff; /* Green button color */
+        border: 1px solid #4CAF4F;
+        border-radius: 5px;
+        color: #4CAF4F;
+        text-decoration: none;
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .full-width-button:hover {
+        background-color: #4CAF4F; /* memberi warna ketika cursor diatas button */
+        color: #fff;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+    }
+</style>
 <body>
     <!-- Space untuk navbar -->
     <div class="row">
@@ -83,7 +110,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
                         <label class="form-check-label" for="exampleCheck1">Remember me</label>
                     </div>
-                    <button type="submit" class="btn btn-outline-success offset-md-5">Submit</button>
+                    <button type="submit" class="full-width-button">Register</button>
                     <span>
                         <p class="text-center" style="margin-top: 10px">Already have an account ? <a href="<?php echo base_url('Auth/login') ?>" class="text-success" style="text-decoration:none">Login</a></p>
                     </span>
